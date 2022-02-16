@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9A604C2779114C0089BBE2 /* Picsplore_Media_Selection_ScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A604B2779114C0089BBE2 /* Picsplore_Media_Selection_ScreenApp.swift */; };
+		8E9A604E2779114C0089BBE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A604D2779114C0089BBE2 /* ContentView.swift */; };
+		8E9A60502779114E0089BBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A604F2779114E0089BBE2 /* Assets.xcassets */; };
+		8E9A60532779114E0089BBE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A60522779114E0089BBE2 /* Preview Assets.xcassets */; };
+		8E9A605D2779114E0089BBE2 /* Picsplore_Media_Selection_ScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A605C2779114E0089BBE2 /* Picsplore_Media_Selection_ScreenTests.swift */; };
+		8E9A60672779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A60662779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITests.swift */; };
+		8E9A60692779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A60682779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITestsLaunchTests.swift */; };
+		8E9A6077277911840089BBE2 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A6076277911840089BBE2 /* ImagePickerView.swift */; };
+		8E9A6079277911BA0089BBE2 /* ImagePickerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A6078277911BA0089BBE2 /* ImagePickerRepresentable.swift */; };
+		8E9A607B277911D20089BBE2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A607A277911D20089BBE2 /* ModelData.swift */; };
+		8E9A607D277911FF0089BBE2 /* PostMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A607C277911FF0089BBE2 /* PostMedia.swift */; };
+		8E9A6082277916D00089BBE2 /* SelectedMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A6081277916D00089BBE2 /* SelectedMediaView.swift */; };
+		8E9A6085277918FA0089BBE2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A6084277918FA0089BBE2 /* PlayerViewController.swift */; };
+		8E9A6087277919110089BBE2 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A6086277919110089BBE2 /* PlayerView.swift */; };
+		8E9A6089277919350089BBE2 /* PlayerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A6088277919350089BBE2 /* PlayerViewRepresentable.swift */; };
+		8E9A608C277926060089BBE2 /* PHLivePhotoRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A608B277926060089BBE2 /* PHLivePhotoRepresentable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E9A60592779114E0089BBE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9A60402779114C0089BBE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9A60472779114C0089BBE2;
+			remoteInfo = "Picsplore Media Selection Screen";
+		};
+		8E9A60632779114E0089BBE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9A60402779114C0089BBE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9A60472779114C0089BBE2;
+			remoteInfo = "Picsplore Media Selection Screen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E9A60482779114C0089BBE2 /* Picsplore Media Selection Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picsplore Media Selection Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9A604B2779114C0089BBE2 /* Picsplore_Media_Selection_ScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picsplore_Media_Selection_ScreenApp.swift; sourceTree = "<group>"; };
+		8E9A604D2779114C0089BBE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E9A604F2779114E0089BBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9A60522779114E0089BBE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E9A60582779114E0089BBE2 /* Picsplore Media Selection ScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picsplore Media Selection ScreenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9A605C2779114E0089BBE2 /* Picsplore_Media_Selection_ScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picsplore_Media_Selection_ScreenTests.swift; sourceTree = "<group>"; };
+		8E9A60622779114E0089BBE2 /* Picsplore Media Selection ScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picsplore Media Selection ScreenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9A60662779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picsplore_Media_Selection_ScreenUITests.swift; sourceTree = "<group>"; };
+		8E9A60682779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picsplore_Media_Selection_ScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E9A6076277911840089BBE2 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		8E9A6078277911BA0089BBE2 /* ImagePickerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerRepresentable.swift; sourceTree = "<group>"; };
+		8E9A607A277911D20089BBE2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		8E9A607C277911FF0089BBE2 /* PostMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMedia.swift; sourceTree = "<group>"; };
+		8E9A6081277916D00089BBE2 /* SelectedMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedMediaView.swift; sourceTree = "<group>"; };
+		8E9A6084277918FA0089BBE2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		8E9A6086277919110089BBE2 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		8E9A6088277919350089BBE2 /* PlayerViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewRepresentable.swift; sourceTree = "<group>"; };
+		8E9A608B277926060089BBE2 /* PHLivePhotoRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHLivePhotoRepresentable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9A60452779114C0089BBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A60552779114E0089BBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A605F2779114E0089BBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9A603F2779114C0089BBE2 = {
+			isa = PBXGroup;
+			children = (
+				8E9A604A2779114C0089BBE2 /* Picsplore Media Selection Screen */,
+				8E9A605B2779114E0089BBE2 /* Picsplore Media Selection ScreenTests */,
+				8E9A60652779114E0089BBE2 /* Picsplore Media Selection ScreenUITests */,
+				8E9A60492779114C0089BBE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9A60492779114C0089BBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A60482779114C0089BBE2 /* Picsplore Media Selection Screen.app */,
+				8E9A60582779114E0089BBE2 /* Picsplore Media Selection ScreenTests.xctest */,
+				8E9A60622779114E0089BBE2 /* Picsplore Media Selection ScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9A604A2779114C0089BBE2 /* Picsplore Media Selection Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A604B2779114C0089BBE2 /* Picsplore_Media_Selection_ScreenApp.swift */,
+				8E9A604D2779114C0089BBE2 /* ContentView.swift */,
+				8E9A6075277911610089BBE2 /* Image Picker */,
+				8E9A607E277912060089BBE2 /* Model */,
+				8E9A604F2779114E0089BBE2 /* Assets.xcassets */,
+				8E9A60512779114E0089BBE2 /* Preview Content */,
+			);
+			path = "Picsplore Media Selection Screen";
+			sourceTree = "<group>";
+		};
+		8E9A60512779114E0089BBE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A60522779114E0089BBE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E9A605B2779114E0089BBE2 /* Picsplore Media Selection ScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A605C2779114E0089BBE2 /* Picsplore_Media_Selection_ScreenTests.swift */,
+			);
+			path = "Picsplore Media Selection ScreenTests";
+			sourceTree = "<group>";
+		};
+		8E9A60652779114E0089BBE2 /* Picsplore Media Selection ScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A60662779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITests.swift */,
+				8E9A60682779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITestsLaunchTests.swift */,
+			);
+			path = "Picsplore Media Selection ScreenUITests";
+			sourceTree = "<group>";
+		};
+		8E9A6075277911610089BBE2 /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A6076277911840089BBE2 /* ImagePickerView.swift */,
+				8E9A6081277916D00089BBE2 /* SelectedMediaView.swift */,
+				8E9A6078277911BA0089BBE2 /* ImagePickerRepresentable.swift */,
+				8E9A6083277918D90089BBE2 /* VideoPlayer */,
+				8E9A608A277925F30089BBE2 /* LivePhotos */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		8E9A607E277912060089BBE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A607A277911D20089BBE2 /* ModelData.swift */,
+				8E9A607C277911FF0089BBE2 /* PostMedia.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E9A6083277918D90089BBE2 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A6084277918FA0089BBE2 /* PlayerViewController.swift */,
+				8E9A6086277919110089BBE2 /* PlayerView.swift */,
+				8E9A6088277919350089BBE2 /* PlayerViewRepresentable.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		8E9A608A277925F30089BBE2 /* LivePhotos */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A608B277926060089BBE2 /* PHLivePhotoRepresentable.swift */,
+			);
+			path = LivePhotos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9A60472779114C0089BBE2 /* Picsplore Media Selection Screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9A606C2779114E0089BBE2 /* Build configuration list for PBXNativeTarget "Picsplore Media Selection Screen" */;
+			buildPhases = (
+				8E9A60442779114C0089BBE2 /* Sources */,
+				8E9A60452779114C0089BBE2 /* Frameworks */,
+				8E9A60462779114C0089BBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picsplore Media Selection Screen";
+			productName = "Picsplore Media Selection Screen";
+			productReference = 8E9A60482779114C0089BBE2 /* Picsplore Media Selection Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E9A60572779114E0089BBE2 /* Picsplore Media Selection ScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9A606F2779114E0089BBE2 /* Build configuration list for PBXNativeTarget "Picsplore Media Selection ScreenTests" */;
+			buildPhases = (
+				8E9A60542779114E0089BBE2 /* Sources */,
+				8E9A60552779114E0089BBE2 /* Frameworks */,
+				8E9A60562779114E0089BBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9A605A2779114E0089BBE2 /* PBXTargetDependency */,
+			);
+			name = "Picsplore Media Selection ScreenTests";
+			productName = "Picsplore Media Selection ScreenTests";
+			productReference = 8E9A60582779114E0089BBE2 /* Picsplore Media Selection ScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E9A60612779114E0089BBE2 /* Picsplore Media Selection ScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9A60722779114E0089BBE2 /* Build configuration list for PBXNativeTarget "Picsplore Media Selection ScreenUITests" */;
+			buildPhases = (
+				8E9A605E2779114E0089BBE2 /* Sources */,
+				8E9A605F2779114E0089BBE2 /* Frameworks */,
+				8E9A60602779114E0089BBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9A60642779114E0089BBE2 /* PBXTargetDependency */,
+			);
+			name = "Picsplore Media Selection ScreenUITests";
+			productName = "Picsplore Media Selection ScreenUITests";
+			productReference = 8E9A60622779114E0089BBE2 /* Picsplore Media Selection ScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9A60402779114C0089BBE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8E9A60472779114C0089BBE2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8E9A60572779114E0089BBE2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8E9A60472779114C0089BBE2;
+					};
+					8E9A60612779114E0089BBE2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8E9A60472779114C0089BBE2;
+					};
+				};
+			};
+			buildConfigurationList = 8E9A60432779114C0089BBE2 /* Build configuration list for PBXProject "Picsplore Media Selection Screen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9A603F2779114C0089BBE2;
+			productRefGroup = 8E9A60492779114C0089BBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9A60472779114C0089BBE2 /* Picsplore Media Selection Screen */,
+				8E9A60572779114E0089BBE2 /* Picsplore Media Selection ScreenTests */,
+				8E9A60612779114E0089BBE2 /* Picsplore Media Selection ScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9A60462779114C0089BBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9A60532779114E0089BBE2 /* Preview Assets.xcassets in Resources */,
+				8E9A60502779114E0089BBE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A60562779114E0089BBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A60602779114E0089BBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9A60442779114C0089BBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9A6089277919350089BBE2 /* PlayerViewRepresentable.swift in Sources */,
+				8E9A6087277919110089BBE2 /* PlayerView.swift in Sources */,
+				8E9A6082277916D00089BBE2 /* SelectedMediaView.swift in Sources */,
+				8E9A6085277918FA0089BBE2 /* PlayerViewController.swift in Sources */,
+				8E9A608C277926060089BBE2 /* PHLivePhotoRepresentable.swift in Sources */,
+				8E9A607D277911FF0089BBE2 /* PostMedia.swift in Sources */,
+				8E9A607B277911D20089BBE2 /* ModelData.swift in Sources */,
+				8E9A604E2779114C0089BBE2 /* ContentView.swift in Sources */,
+				8E9A6077277911840089BBE2 /* ImagePickerView.swift in Sources */,
+				8E9A6079277911BA0089BBE2 /* ImagePickerRepresentable.swift in Sources */,
+				8E9A604C2779114C0089BBE2 /* Picsplore_Media_Selection_ScreenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A60542779114E0089BBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9A605D2779114E0089BBE2 /* Picsplore_Media_Selection_ScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A605E2779114E0089BBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9A60692779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITestsLaunchTests.swift in Sources */,
+				8E9A60672779114E0089BBE2 /* Picsplore_Media_Selection_ScreenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E9A605A2779114E0089BBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E9A60472779114C0089BBE2 /* Picsplore Media Selection Screen */;
+			targetProxy = 8E9A60592779114E0089BBE2 /* PBXContainerItemProxy */;
+		};
+		8E9A60642779114E0089BBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E9A60472779114C0089BBE2 /* Picsplore Media Selection Screen */;
+			targetProxy = 8E9A60632779114E0089BBE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E9A606A2779114E0089BBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E9A606B2779114E0089BBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9A606D2779114E0089BBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Picsplore Media Selection Screen/Preview Content\"";
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.Picsplore-Media-Selection-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E9A606E2779114E0089BBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Picsplore Media Selection Screen/Preview Content\"";
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.Picsplore-Media-Selection-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E9A60702779114E0089BBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.Picsplore-Media-Selection-ScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picsplore Media Selection Screen.app/Picsplore Media Selection Screen";
+			};
+			name = Debug;
+		};
+		8E9A60712779114E0089BBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.Picsplore-Media-Selection-ScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picsplore Media Selection Screen.app/Picsplore Media Selection Screen";
+			};
+			name = Release;
+		};
+		8E9A60732779114E0089BBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.Picsplore-Media-Selection-ScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Picsplore Media Selection Screen";
+			};
+			name = Debug;
+		};
+		8E9A60742779114E0089BBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.Picsplore-Media-Selection-ScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Picsplore Media Selection Screen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9A60432779114C0089BBE2 /* Build configuration list for PBXProject "Picsplore Media Selection Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9A606A2779114E0089BBE2 /* Debug */,
+				8E9A606B2779114E0089BBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9A606C2779114E0089BBE2 /* Build configuration list for PBXNativeTarget "Picsplore Media Selection Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9A606D2779114E0089BBE2 /* Debug */,
+				8E9A606E2779114E0089BBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9A606F2779114E0089BBE2 /* Build configuration list for PBXNativeTarget "Picsplore Media Selection ScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9A60702779114E0089BBE2 /* Debug */,
+				8E9A60712779114E0089BBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9A60722779114E0089BBE2 /* Build configuration list for PBXNativeTarget "Picsplore Media Selection ScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9A60732779114E0089BBE2 /* Debug */,
+				8E9A60742779114E0089BBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9A60402779114C0089BBE2 /* Project object */;
+}
